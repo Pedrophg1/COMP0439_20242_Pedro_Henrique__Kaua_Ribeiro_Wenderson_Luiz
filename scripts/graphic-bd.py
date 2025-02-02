@@ -5,9 +5,9 @@ import psycopg2
 # Configuração da conexão com o banco de dados
 DB_HOST = "localhost"
 DB_PORT = "5432"  # Porta padrão do PostgreSQL
-DB_NAME = "Issues_db"
-DB_USER = "pedroadmin"
-DB_PASSWORD = "@dmin159"
+DB_NAME = "DB_HOST"
+DB_USER = "DB_USER"
+DB_PASSWORD = "@DB_PASSWORD"
 
 # Criar a conexão com o banco de dados usando psycopg2
 conn = psycopg2.connect(
