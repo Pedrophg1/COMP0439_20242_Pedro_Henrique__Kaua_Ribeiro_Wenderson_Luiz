@@ -7,9 +7,9 @@ json_file = "listade_issues.json"
 # Conectar ao PostgreSQL
 conn = psycopg2.connect(
     host="localhost",
-    database="Issues_db",
-    user="postgres",
-    password="@dmin159"
+    database="database",
+    user="user",
+    password="password"
 )
 cursor = conn.cursor()
 
